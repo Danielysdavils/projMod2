@@ -148,8 +148,84 @@ img#imgSec1{
 
 section.sec2{
     width: 100%;
-    height: 700px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: var(--color2);
+}
+section.conTxt03{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2.txt03{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: var(--color6);
+}
+div.barra2{
+    width: 90px;
+    height: 5px;
+    background-color: var(--color7);
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+section.contTar{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.target{
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-radius: 10px;
+    background-color: var(--color6);
+}
+
+img.icon01{
+    width: 200px;
+    height: 200px;
+}
+
+h3.txt04{
+    width: 100%;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+}
+div.contBot04{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button#bot04{
+    width: 200px;
+    height: 50px;
+    border: 1px solid var(--color7);
+    background-color: var(--color6);
+    border-radius: 10px;
 }
 
 /* ---- --------- */
