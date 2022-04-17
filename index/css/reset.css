@@ -1,0 +1,12 @@
+*{
+    margin: 0; border: 0; padding: 0;
+}
+
+#root{
+    --color1:#001449;
+    --color2:#012677;
+    --color3:#005bc5;
+    --color4:#00b4fc;
+    --color5:#17f9ff;
+    --color6:#e9f6f7;
+}
