@@ -10,7 +10,7 @@ header{
     height: 250px;
     display: flex;
     flex-direction: column;
-    background-color: #001449;
+    background-color: var(--color1);
 }
 section.logoTipo{
     width: 100%;
@@ -29,7 +29,7 @@ h1#nome{
     font-weight: 700;
     font-size: 40px;
     margin-left: 10px;
-    color: aliceblue;
+    color: var(--color6);
 }
 
 /* Section - Barra Nav */
@@ -61,9 +61,109 @@ h2.nav{
     margin-left: 80px;
     margin-right: 40px;
     font-size: 25px;
-    color: aliceblue;
+    color: var(--color6);
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+}
+
+/* CORPO */
+
+/* Section 1 */
+
+section.sec1{
+    width: 100%;
+    height: 700px;
+    background-color: var(--color6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 24%, rgba(242,242,242,1) 62%);  
+}
+
+article.contText{
+    width: 45%;
+    height: 600px;
+    display: flex;
+}
+
+div.titulos01{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p.tit01{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}
+div.barra{
+    width: 70px;
+    height: 5px;
+    background-color: var(--color2);
+    border-radius: 20px;
+}
+p.tit02{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+div.contBot02{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button#bot01{
+    width: 150px;
+    height: 45px;
+    border: 1px solid var(--color1);
+    border-radius: 10px;
+    background-color: var(--color2);
+    color: var(--color6);
+}
+
+aside.sec1{
+    width: 45%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img#imgSec1{
+    width: 500px;
+    height: 500px;
+}
+
+/* ----- */
+
+section.sec2{
+    width: 100%;
+    height: 700px;
+    background-color: var(--color2);
+}
+
+/* ---- --------- */
+
+section.sec3{
+    width: 100%;
+    height: 700px;
+    background-color: var(--color3);
+}
+
+section.sec4{
+    width: 100%;
+    height: 700px;
+    background-color: var(--color6);
 }
 
 
@@ -74,7 +174,7 @@ footer{
     height: 500px;
     display: flex;
     flex-direction: column;
-    background-color: #001449;
+    background-color: var(--color1);
 }
 
 section.detalhes{
@@ -100,7 +200,7 @@ img.imgLogoFooter{
 h1.txtLogoFooter{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: aliceblue;
+    color: var(--color6);
 }
 
 /* Parte Links */
@@ -117,7 +217,7 @@ h3.linkFooter{
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
-    color: aliceblue;
+    color: var(--color6);
 }
 
 section.direitos{
@@ -130,6 +230,6 @@ section.direitos{
 h1.txtDireitos{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
-    color: aliceblue;
+    color: var(--color6);
     font-size: 20px;
 }
