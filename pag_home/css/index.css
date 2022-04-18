@@ -153,7 +153,8 @@ section.sec2{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--color2);
+    background: rgb(1,38,119);
+    background: linear-gradient(254deg, rgba(1,38,119,1) 48%, rgba(0,20,73,1) 100%);
 }
 section.conTxt03{
     width: 60%;
@@ -236,26 +237,81 @@ section.sec3{
     background-color: var(--color3);
 }
 
+/* ------------ --  */
+
 section.sec4{
     width: 100%;
-    height: 700px;
-    background-color: var(--color6);
+    height: 900px;
+    display: flex;
+    background-image: url("4.png");
+    background-position: center;
+    background-size: 2000px 2000px;
 }
+
+div.conText04{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1.txt04{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--color1);   
+}
+
+div.contIlust{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+div.contImg05{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.contBot{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button#bot06{
+    width: 200px;
+    height: 90px;
+    border-radius: 20px;
+    border: 1px solid var(--color7);
+    background: rgb(255,157,20);
+    background: linear-gradient(254deg, rgba(255,157,20,1) 44%, rgba(255,219,152,1) 100%);
+}
+
+img.img05{
+    width: 300px;
+    height: 300px;
+}
+
 
 
 /* FOOTER */
 
 footer{
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: var(--color1);
 }
 
 section.detalhes{
     width: 100%;
-    height: 400px;
+    height: 200px;
     display: flex;
 }
 
@@ -263,7 +319,7 @@ section.detalhes{
 
 div.logoFinal{
     width: 30%;
-    height: 400px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -283,7 +339,7 @@ h1.txtLogoFooter{
 
 div.links{
     width: 70%;
-    height: 400px;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
