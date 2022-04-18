@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="./css/page_login.css">
 </head>
 <body>
     <header>
@@ -14,13 +15,15 @@
         <section>
             <form>
                 <label>Usuário (e-mail):</label>
-                <input type="text" id="email">
+                <input type="text" id="email"><br>
+                <small id="msgErroEmail">Email Inválido</small>
             </form>
             <form>
                 <label>Senha:</label>
-                <input type="text" id="senha">
+                <input type="text" id="senha"><br>
+                <small id="msgErroSenha">Senha Inválida</small>
             </form>
-            <input type="submit" value="Cadastrar" id="submit">
+            <input type="button" value="Cadastrar" id="submit">
             <a href="">Esqueci minha senha.</a>
         </section>
     </main>
