@@ -5,21 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="./css/page_login.css">
 </head>
 <body>
+    <header>
+
+    </header>
     <main>
         <section>
             <form>
                 <label>Usuário (e-mail):</label>
-                <input type="text">
+                <input type="text" id="email"><br>
+                <small id="msgErroEmail">Email Inválido</small>
             </form>
             <form>
                 <label>Senha:</label>
-                <input type="text">
+                <input type="text" id="senha"><br>
+                <small id="msgErroSenha">Senha Inválida</small>
             </form>
             <input type="submit" value="Cadastrar">
             <a href="../page_recup_senha/page_recup_senha.html">Esqueci minha senha.</a>
         </section>
     </main>
+    <footer>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./page_login.js"></script>
 </body>
 </html>
