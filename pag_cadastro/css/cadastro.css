@@ -1,0 +1,17 @@
+/* CABEÇALHO */
+
+/* CORPO */
+
+section.contForm{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+}
+
+form.formulario{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER */
