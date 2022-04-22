@@ -94,6 +94,8 @@ footer.rodape{
     flex-direction: column;
     justify-content: center;
     background-color: var(--color1);
+    position: absolute;
+    bottom: 0;
 }
 
 section.detalhes{
