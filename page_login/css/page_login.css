@@ -88,6 +88,34 @@ a:hover{
 
 /* MAIN */
 
+main{
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+section{
+    margin: 50px;
+    padding: 50px;
+    width: 20%;
+    height: 400px;
+}
+
+input{
+    margin: 10px;
+}
+
+small{
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+
+#submit:hover{
+    background-color: white;
+    color: var(--color1)
+}
+
 /* FOOTER */
 
 footer.rodape{
@@ -149,6 +177,11 @@ section.direitos{
     align-items: center;
     justify-content: center;
 }
+
+.links>a{
+    text-decoration: none;
+}
+
 h1.txtDireitos{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
