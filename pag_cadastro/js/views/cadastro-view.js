@@ -1,15 +1,28 @@
 class mostraUsuario{
     
-    mostraResultado(nome){
+    mostraNome(nome){
         const res = $('#resNome')
         res.html(`${nome}, seu nome foi cadastrado`)
     }
 
-    mostraErro(error){
+    mostraEmail(email){
+        const res = $('#resEmail')
+        res.html(`Seu email: ${email} foi cadastrado`)
+    }
+
+    mostraErroNome(error){
         alert(error)
-        // const res = $('#resNome') 
-        // const h1 = $('<h1>').text(error).css('color', 'red')
-        // res.append(h1)
+    }
+
+    mostraErroEmail(error){
+        alert(error)
+    } 
+}
+
+class mostrarEndereco{
+    mostraErroCep(error){
+        const res = $('#resCep')
+        res.html(error)
     }
 }
 

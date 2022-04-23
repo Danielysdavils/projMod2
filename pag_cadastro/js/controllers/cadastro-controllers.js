@@ -5,23 +5,49 @@ class usuarioController{
 
     cadastrar(){
         const model = new Usuario()
+
         const nome = $('#nome').val()
+        const email = $('#email').val()
+        
+
         const view = new mostraUsuario()
 
         try {
-            model.valida(nome)
+            model.validaNome(nome)
+            model.validaEmail(email)
+           
             this.dadosUsuario.push(model)
             const dados = this.dadosUsuario
             console.log(dados);
-            view.mostraResultado(nome)
+
+            view.mostraNome(nome)
+            view.mostraEmail(email)
 
         } catch (error) {
-            view.mostraErro(error)
+            view.mostraErroNome(error)
+            view.mostraErroEmail(error)
         }
     }
 }
 
 const controller = new usuarioController();
+
+$('#inputCEP').blur(function(){
+
+    const model = new Endereco()
+
+    const cep = $(this).val().replace(/\D/g, '')
+
+    const view = new mostrarEndereco()
+   
+    try {
+        model.pesquisaCep(cep)  
+            
+    } catch (error) {
+        view.mostraErroCep(error)
+    }
+    
+})
 
 $('#submit').click((e) => {
     e.preventDefault();
