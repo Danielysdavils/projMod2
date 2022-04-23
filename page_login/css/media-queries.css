@@ -1,0 +1,32 @@
+@media(max-width: 769px) {
+    /* HEADER */
+
+    /* MAIN */
+    #caixaDeLogin{
+        width: 40%;
+    }
+
+    #caixaImagem>img {
+        height: 300px;
+        width: 300px;
+    }
+
+    /* FOOTER */
+}
+
+@media(max-width: 426px){
+
+    /* MAIN */
+    main>div{
+        display: flex;
+        justify-content: center;
+    }
+
+    #caixaImagem>img{
+        display: none;
+    }
+    
+    #caixaDeLogin{
+        width: 80%;
+    }
+}
