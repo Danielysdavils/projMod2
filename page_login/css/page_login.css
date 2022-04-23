@@ -89,31 +89,57 @@ a:hover{
 /* MAIN */
 
 main{
-    margin-bottom: 70px;
-    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
-section{
+#caixaDeLogin{
     margin: 50px;
     padding: 50px;
-    width: 20%;
-    height: 400px;
+    width: 25%;
+    height: 300px;
+    text-align: center;
 }
 
 input{
-    margin: 10px;
+    width: 95%;
+    height: 40px;
+    border-radius: 3px;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+input::placeholder{
+    padding-left: 5px;
+}
+
+form{
+    width: 100%;
 }
 
 small{
-    margin-left: 10px;
-    padding: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     border-radius: 2px;
 }
-
 
 #submit:hover{
     background-color: white;
     color: var(--color1)
+}
+
+#esqueciSenha{
+    text-decoration: none;
+}
+
+#esqueciSenha:hover{
+    text-decoration: underline;
+}
+
+#imgMain{
+    width: 700px;
+    height: 600px;
 }
 
 /* FOOTER */
