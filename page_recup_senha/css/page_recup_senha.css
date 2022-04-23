@@ -85,6 +85,53 @@ a:hover{
     text-decoration: none;
 }
 
+/* MAIN */
+
+main{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#caixaDeRecupSenha{
+    height: 400px;
+    width: 25%;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+#caixaDeRecupSenha>div{
+    width: 80%;
+}
+
+#caixaDeRecupSenha>h5{
+    color: var(--color2);
+    width: 80%;
+}
+
+input{
+    width: 100%;
+}
+
+#email{
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#email::placeholder{
+    padding-left: 5px;
+}
+
+#caixaImg>img{
+    height: 550px;
+    width: 600px;
+}
+
+#submit:hover{
+    background-color: white;
+    color: var(--color1)
+}
+
 /* FOOTER */
 
 footer.rodape{
@@ -94,8 +141,6 @@ footer.rodape{
     flex-direction: column;
     justify-content: center;
     background-color: var(--color1);
-    position: absolute;
-    bottom: 0;
 }
 
 section.detalhes{
