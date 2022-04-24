@@ -8,12 +8,14 @@ class usuarioController{
 
         const nome = $('#nome1').val()
         const email = $('#inputEmail4').val()
+        const senha = $('#inputPassword4').val()
         
         const view = new mostraUsuario()
 
         try {
             model.validaTipoNome(nome)
             model.validaEmail(email)
+            model.validaSenha(senha)
            
             this.dadosUsuario.push(model)
             const dados = this.dadosUsuario
@@ -21,10 +23,12 @@ class usuarioController{
 
             view.mostraNome(nome)
             view.mostraEmail(email)
+            view.mostraSenha()
 
         } catch (error) {
             view.mostraErroNome(error)
             view.mostraErroEmail(error)
+            view.mostraErroSenha(error)
         }
     }
 }

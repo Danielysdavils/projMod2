@@ -10,6 +10,11 @@ class mostraUsuario{
         res.html(`Seu email: ${email} foi cadastrado`)
     }
 
+    mostraSenha(){
+        const res = $('#resSenha')
+        res.html(`Senha valida!`)
+    }
+
     mostraErroNome(error){
         alert(error)
     }
@@ -17,6 +22,10 @@ class mostraUsuario{
     mostraErroEmail(error){
         alert(error)
     } 
+
+    mostraErroSenha(error){
+        alert(error)
+    }
 }
 
 class mostrarEndereco{

@@ -58,9 +58,47 @@ class Usuario{
         }
     }
 
-    validaSenha(senha){
 
+    /* ------------------- VALIDA SENHA --------------------- */
+
+
+    validaSenha(senha){
+        if(this.validaTipoSenha(senha) === true){
+            this.setSenha(senha)
+        }else{
+            throw new Error('digite uma senha contendo Uma letra Matyuscula e uma letra minuscula')
+        }
     }
+
+    validaTipoSenha(senha){
+        if(senha.length > 5){
+
+            const arrayLetras = senha.split('')
+
+            for(let i = 0 ; i < arrayLetras.length; i++){
+                const letra = arrayLetras[i].charCodeAt(arrayLetras[i])
+
+                if(letra >= 65 && letra <= 90){
+                    this.mayuscula = newFunction()
+                        function newFunction() {
+                            return true;
+                        }
+                        
+                }else if(letra >= 97 && letra <= 122){
+                    this.minuscula = newFunction()
+                        function newFunction() {
+                            return true;
+                        }
+                }
+                
+            }
+
+            if(this.mayuscula === true && this.minuscula === true) return true
+        }
+    }
+
+    
+    /* ------------------- VALIDA RG ------------------------ */
 
     validaRg(rg){
 
