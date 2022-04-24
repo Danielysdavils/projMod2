@@ -20,22 +20,40 @@ class mostraUsuario{
         res.html(`Senhas senhas estão compatíveis!`)
     }
 
+    mostraRg(rg){
+        const re = $('#resRg')
+        re.html(`Seu RG: ${rg} foi salvo!`)
+    }
+
+    /* --------- ERROS --------  */
+
     mostraErroNome(error){
-        alert(error)
+        const res = $('#resNome')
+        res.html(error)
     }
 
     mostraErroEmail(error){
-        alert(error)
-    } 
+        const res = $('#resEmail')
+        res.html(error)
+    }
 
     mostraErroSenha(error){
-        alert(error)
+        const res = $('#resSenha')
+        res.html(error)
     }
 
     mostraErroConfiSenha(error){
-        alert(error)
+        const res = $('#resSenhaCon')
+        res.html(error)
+    }
+
+    mostraErroRg(error){
+        const res = $('#resRg')
+        res.html(error)
     }
 }
+
+/* ---------- ERROR CEP ---------- */
 
 class mostrarEndereco{
     mostraErroCep(error){

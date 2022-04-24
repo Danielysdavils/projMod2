@@ -115,11 +115,14 @@ class Usuario{
     }
 
 
-    
     /* ------------------- VALIDA RG ------------------------ */
 
     validaRg(rg){
-
+        if(rg != ''){
+            this.setRg(rg)
+        }else{
+            throw new Error('Preencha o campo com seu RG')
+        }
     }
     
 }

@@ -10,6 +10,7 @@ class usuarioController{
         const email = $('#inputEmail4').val()
         const senha = $('#inputPassword4').val()
         const confiSenha = $('#inputPassword5').val()
+        const rg = $('#inputRg').val()
 
         const view = new mostraUsuario()
 
@@ -18,6 +19,7 @@ class usuarioController{
             model.validaEmail(email)
             model.validaSenha(senha)
             model.validaConfiSenha(senha, confiSenha)
+            model.validaRg(rg)
             
 
             this.dadosUsuario.push(model)
@@ -29,12 +31,16 @@ class usuarioController{
             view.mostraEmail(email)
             view.mostraSenha()
             view.mostraConfiSenha()
+            view.mostraRg(rg)
 
-        } catch (error) {
+        } catch (errorNome) {
+            
             view.mostraErroNome(error)
             view.mostraErroEmail(error)
             view.mostraErroSenha(error)
-            view.mostraErroConfiSenha()
+            view.mostraErroConfiSenha(error)
+            view.mostraErroRg(error)
+            
         }
     }
 }
