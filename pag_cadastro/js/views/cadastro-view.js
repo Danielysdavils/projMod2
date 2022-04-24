@@ -15,6 +15,11 @@ class mostraUsuario{
         res.html(`Senha valida!`)
     }
 
+    mostraConfiSenha(){
+        const res = $('#resSenhaCon')
+        res.html(`Senhas senhas estão compatíveis!`)
+    }
+
     mostraErroNome(error){
         alert(error)
     }
@@ -24,6 +29,10 @@ class mostraUsuario{
     } 
 
     mostraErroSenha(error){
+        alert(error)
+    }
+
+    mostraErroConfiSenha(error){
         alert(error)
     }
 }

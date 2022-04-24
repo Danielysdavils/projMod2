@@ -9,26 +9,32 @@ class usuarioController{
         const nome = $('#nome1').val()
         const email = $('#inputEmail4').val()
         const senha = $('#inputPassword4').val()
-        
+        const confiSenha = $('#inputPassword5').val()
+
         const view = new mostraUsuario()
 
         try {
             model.validaTipoNome(nome)
             model.validaEmail(email)
             model.validaSenha(senha)
-           
+            model.validaConfiSenha(senha, confiSenha)
+            
+
             this.dadosUsuario.push(model)
             const dados = this.dadosUsuario
             console.log(dados);
 
+
             view.mostraNome(nome)
             view.mostraEmail(email)
             view.mostraSenha()
+            view.mostraConfiSenha()
 
         } catch (error) {
             view.mostraErroNome(error)
             view.mostraErroEmail(error)
             view.mostraErroSenha(error)
+            view.mostraErroConfiSenha()
         }
     }
 }

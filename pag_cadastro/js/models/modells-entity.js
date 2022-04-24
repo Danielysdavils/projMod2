@@ -3,6 +3,7 @@ class Usuario{
         this.nome = '';
         this.email = '';
         this.senha = '';
+        this.confiSenha = '',
         this.rg = '';
     }
 
@@ -18,6 +19,10 @@ class Usuario{
 
     setSenha(senha){
          this.senha = senha;
+    }
+
+    setConfiSenha(confiSenha){
+        this.confiSenha = confiSenha
     }
 
     setRg(rg){
@@ -47,7 +52,7 @@ class Usuario{
         }
     }
 
-    /* ------------------- VALIDA EMAIL ------------------ */
+    /* --------------------- VALIDA EMAIL ------------------- */
 
     validaEmail(email){
         const emaill = email
@@ -96,6 +101,19 @@ class Usuario{
             if(this.mayuscula === true && this.minuscula === true) return true
         }
     }
+
+    /* -------------- VALIDA CONFIRMAÇÃO SENHA -------------- */
+
+
+    validaConfiSenha(senha, confiSenha){
+
+        if(senha === confiSenha){
+            this.setConfiSenha(confiSenha)
+        }else{
+            throw new Error('Suas senhas não estão iguais')
+        }
+    }
+
 
     
     /* ------------------- VALIDA RG ------------------------ */
