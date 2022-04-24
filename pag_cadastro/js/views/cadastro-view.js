@@ -1,5 +1,4 @@
 class mostraUsuario{
-    
     mostraNome(nome){
         const res = $('#resNome')
         res.html(`${nome}, seu nome foi cadastrado`)

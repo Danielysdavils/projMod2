@@ -31,6 +31,10 @@ class Usuario{
 
     /* -------------------- METODOS --------------------- */
 
+
+
+    /* -------------- VALIDA NOME ------------ */
+
     validaTipoNome(nome){
         if(this.validaNome(nome) === true){
             this.setNome(nome)
@@ -44,9 +48,7 @@ class Usuario{
         const letra1 = nome.split('')
 
         for(let i = 0; i < letra1.length; i++){
-            
             const l = letra1[i]
-
             const resposta = ('a' <= l && l <= 'z') || ('A' <= l && l <= 'Z')? true:false 
             return resposta    
         }
