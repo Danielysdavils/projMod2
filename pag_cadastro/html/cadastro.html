@@ -7,7 +7,11 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+     
+    <link rel="stylesheet" href="../../index/css/style.css">
     <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="stylesheet" href="../../index/css/reset.css">
+    <link rel="stylesheet" href="../../index/css/media.css">
 
     <title>Cadastro</title>
 
@@ -18,6 +22,35 @@
       
         <!-- Cabeçalho -->
 
+        <header>
+
+          <section class="logoTipo">
+              <img src="../../index/media/logoT.png" alt="logoTipo produto" id="logo">
+              <h1 id="nome">ToDo List</h1>
+          </section>
+
+          <nav class="barraNav">
+
+              <div class="contNav">
+                  <a href="index.html">
+                      <h2 class="nav">Home</h2>
+                  </a>
+                  <a href="#">
+                      <h2 class="nav">Serviço</h2>
+                  </a>
+                  <a href="#">
+                      <h2 class="nav">Contato</h2>
+                  </a>
+              </div>
+
+              <div class="contBot">
+                  <a href="pag_cadastro/html/cadastro.html"><button type="button" class="btn btn-outline-light">Cadastro</button></a>
+                  <a href="page_login/page_login.html"><button type="button" class="btn btn-outline-light">Login</button></a>
+              </div>   
+
+          </nav>
+
+      </header>
         
         <!--  -->
 
@@ -27,7 +60,7 @@
                 <div class="form-group col-md-6">
 
                   <label for="Nome">Digite seu nome</label>
-                  <input type="text" class="form-control" placeholder="Nome" id="nome">
+                  <input type="text" class="form-control" placeholder="Nome" id="nome1">
 
                   <div id="resNome"></div>
 
@@ -42,7 +75,7 @@
                   <div id="resSenha"></div>
 
                   <label for="inputPassword4">Confirme sua senha</label>
-                  <input type="password" class="form-control" id="inputPassword4" placeholder="Confirme sua senha">
+                  <input type="password" class="form-control" id="inputPassword5" placeholder="Confirme sua senha">
 
                   <div id="resSenhaCon"></div>
 
@@ -57,7 +90,7 @@
                   <div id="resCep"></div>
                   
                   <label for="inputCity">Estado</label>
-                  <input type="text" class="form-control" id="inputCity" placeholder="Estado">
+                  <input type="text" class="form-control" id="inputEstado" placeholder="Estado">
 
                   <label for="inputCity">Cidade</label>
                   <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
@@ -90,16 +123,46 @@
         </section>
        
     </main>
+
+    
+    <footer class="rodape">
+
+      <section class="detalhes">
+          <div class="logoFinal">
+              <img src="../../index/media/logoT.png" alt="logoTipo" class="imgLogoFooter">
+              <h1 class="txtLogoFooter">ToDo List</h1>
+          </div>
+
+          <div class="links">
+              <a href="#">
+                  <h3 class="linkFooter">Serviço</h3>
+              </a>
+              <a href="#">
+                  <h3 class="linkFooter">Contato</h3>
+              </a>
+              <a href="#">
+                  <h3 class="linkFooter">Cadastro</h3>
+              </a>
+              <a href="#">
+                  <h3 class="linkFooter">Login</h3>
+              </a>
+          </div>
+      </section>
+
+      <section class="direitos">
+          <h1 class="txtDireitos">Todos os direitos reservados</h1>
+      </section>
+
+  </footer>
     
     <!-- Footer -->
     <!--  -->
 
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
     ></script>
 
+    
     <script src="../js/views/cadastro-view.js"></script>
     <script src="../js/models/modells-entity.js"></script>
     <script src="../js/controllers/cadastro-controllers.js"></script>
