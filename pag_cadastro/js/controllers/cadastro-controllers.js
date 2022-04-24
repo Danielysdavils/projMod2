@@ -6,26 +6,26 @@ class usuarioController{
     cadastrar(){
         const model = new Usuario()
 
-        const nome = $('#nome').val()
-        const email = $('#email').val()
+        const nome = $('#nome1').val()
         
-
+        // const email = $('#email').val()
+        
         const view = new mostraUsuario()
 
         try {
-            model.validaNome(nome)
-            model.validaEmail(email)
+            model.validaTipoNome(nome)
+            // model.validaEmail(email)
            
             this.dadosUsuario.push(model)
             const dados = this.dadosUsuario
             console.log(dados);
 
             view.mostraNome(nome)
-            view.mostraEmail(email)
+            // view.mostraEmail(email)
 
         } catch (error) {
             view.mostraErroNome(error)
-            view.mostraErroEmail(error)
+            // view.mostraErroEmail(error)
         }
     }
 }
@@ -42,7 +42,7 @@ $('#inputCEP').blur(function(){
    
     try {
         model.pesquisaCep(cep)  
-            
+
     } catch (error) {
         view.mostraErroCep(error)
     }

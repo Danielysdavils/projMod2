@@ -12,4 +12,4 @@ function valida (nome){
         }
     }       
 }
-valida('#$#@%@')
+valida('danielys')

@@ -6,16 +6,6 @@ class Usuario{
         this.rg = '';
     }
 
-    /* ----------------- GETTERS -------------- */
-
-    getNome(){
-        return this.nome;
-    }
-
-    getEmail(){
-        return this.email;
-    }
-
     /* --------------- SETTERS --------------- */
 
     setNome(nome){
@@ -34,45 +24,37 @@ class Usuario{
         this.rg = rg;
     }
 
-    /* ---- METODOS ---- */
+    /* -------------------- METODOS --------------------- */
 
-    validaNome(nome){
-        console.clear()
+    validaTipoNome(nome){
+         if(this.validaNome(nome) === true){
+             this.setNome(nome)
+         }else{
+             throw new Error('Nome com caracteres invalidos!')
+         }
+     }
 
-        /* 
-        
-        console.clear();
-        const padrao = /[^a-zà-ú]/gi;
-        const valida_nome = nome.match(padrao)
+     validaNome(nome){
+         console.clear()
+         const letra1 = nome.split('')
 
-        if(valida_nome || !nome){
-            throw new Error('Por favor, digite seu nome com caracteres validos.')
-        }else{
-            this.setNome(nome)
-        
-        */
-        
-        const letra1 = nome.split('')
-
-        for(let i = 0; i < letra1.length; i++){
+         for(let i = 0; i < letra1.length; i++){
             
-            const l = letra1[i]
-            
-            if(('a' <= l && l <= 'z') || ('A' <= l && l <= 'Z')){
-                this.setNome(nome)
-            }else{
-                throw new Error('Nome com caracteres invalidos!')
-            }
-        }
-    }
+             const l = letra1[i]
 
-    validaEmail(email){
-        if(email.indexOf('@')){
-            this.setEmail(email)
-        }else{
-            throw new Error('Digite um email valido!')
-        }
-    }
+             const resposta = ('a' <= l && l <= 'z') || ('A' <= l && l <= 'Z')? true:false 
+             return resposta    
+         }
+     }
+
+
+    // validaEmail(email){
+    //     if(email.indexOf('@')){
+    //         this.setEmail(email)
+    //     }else{
+    //         throw new Error('Digite um email valido!')
+    //     }
+    // }
 
     // validaSenha(senha){
 
@@ -81,6 +63,7 @@ class Usuario{
     // validaRg(rg){
 
     // }
+    
 }
 
 class Endereco{
