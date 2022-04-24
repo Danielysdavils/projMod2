@@ -1,27 +1,27 @@
 class mostraUsuario{
     mostraNome(nome){
         const res = $('#resNome')
-        res.html(`${nome}, seu nome foi cadastrado`).css('color', '#17f9ff')
+        res.html(`✔️ ${nome}, seu nome foi cadastrado`).css('color', '#17f9ff')
     }
 
     mostraEmail(email){
         const res = $('#resEmail')
-        res.html(`Seu email: ${email} foi cadastrado`).css('color', '#17f9ff')
+        res.html(`✔️ Seu email: ${email} foi cadastrado`).css('color', '#17f9ff')
     }
 
     mostraSenha(){
         const res = $('#resSenha')
-        res.html(`Senha valida!`).css('color', '#17f9ff')
+        res.html(`✔️ Senha valida!`).css('color', '#17f9ff')
     }
 
     mostraConfiSenha(){
         const res = $('#resSenhaCon')
-        res.html(`Senhas senhas estão compatíveis!`).css('color', '#17f9ff')
+        res.html(`✔️ As senhas estão compatíveis!`).css('color', '#17f9ff')
     }
 
     mostraRg(rg){
         const re = $('#resRg')
-        re.html(`Seu RG: ${rg} foi salvo!`).css('color', '#17f9ff')
+        re.html(`✔️ Seu RG: ${rg} foi salvo!`).css('color', '#17f9ff')
     }
 
     /* --------- ERROS --------  */

@@ -39,7 +39,7 @@ class Usuario{
         if(this.validaNome(nome) === true){
             this.setNome(nome)
         }else{
-            throw new Error('Nome com caracteres invalidos!')
+            throw new Error('❌ Nome com caracteres invalidos!')
         }
     }
 
@@ -61,7 +61,7 @@ class Usuario{
         if((emaill.indexOf('@') > 3) && (emaill.indexOf('.') > 7) && (emaill != '')){
             this.setEmail(email)
         }else{
-            throw new Error('Digite um email valido!')
+            throw new Error('❌ Digite um email valido!')
         }
     }
 
@@ -73,7 +73,7 @@ class Usuario{
         if(this.validaTipoSenha(senha) === true){
             this.setSenha(senha)
         }else{
-            throw new Error('digite uma senha contendo Uma letra Matyuscula e uma letra minuscula')
+            throw new Error('❌ Digite uma senha contendo letras maiusculas e letras minusculas')
         }
     }
 
@@ -112,7 +112,7 @@ class Usuario{
         if(senha === confiSenha){
             this.setConfiSenha(confiSenha)
         }else{
-            throw new Error('Suas senhas não estão iguais')
+            throw new Error('❌ Suas senhas não estão iguais')
         }
     }
 
@@ -123,7 +123,7 @@ class Usuario{
         if(rg != ''){
             this.setRg(rg)
         }else{
-            throw new Error('Preencha o campo com seu RG')
+            throw new Error('❌ Preencha o campo com seu RG')
         }
     }
     
@@ -194,14 +194,14 @@ class Endereco{
                         $('#inputNum').val(json.ibge);
                     }else{
                         this.limpiaForm()
-                        throw new Error('CEP não encontrado.')
+                        throw new Error('❌ CEP não encontrado.')
                     }
                 }
             })
 
         }else{
             this.limpiaForm()
-            throw new Error('formato de CEP inválido.');
+            throw new Error('❌ formato de CEP inválido.');
         }
     }
     
