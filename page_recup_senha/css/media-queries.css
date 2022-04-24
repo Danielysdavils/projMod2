@@ -37,6 +37,7 @@
     #divMain{
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     #caixaImg>img{
@@ -92,6 +93,11 @@
         font-size: 20px;
     }
     /* MAIN */
+
+    #caixaDeRecupSenha{
+        width: 90%;
+    }
+
     /* FOOTER */
     footer.rodape{
         height: 300px;
