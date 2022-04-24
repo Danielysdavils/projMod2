@@ -10,7 +10,8 @@ class usuarioController{
 
         if((nome != '') && (email != '') && (senha != '') && (confSenha != '') && (rg != '') && (cep != '')){
             alert('Muito Bem! Seus dados foram salvos!')
-            
+            window.location.href = "../../pag_produto/html/produto.html"
+
         }else{
             alert('Não deixe campo vacíos!')
         } 

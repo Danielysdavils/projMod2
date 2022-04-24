@@ -9,7 +9,9 @@
 
      
     <link rel="stylesheet" href="../../index/css/style.css">
+
     <link rel="stylesheet" href="../css/cadastro.css">
+
     <link rel="stylesheet" href="../../index/css/reset.css">
     <link rel="stylesheet" href="../../index/css/media.css">
 
@@ -56,75 +58,107 @@
 
         <section class="contForm">
 
+            <div class="secTit">
+                <h1 class="tit">Preencha o formulario para começar!</h1>
+                <div class="linha"></div>
+            </div>
+
             <form class="formulario"> 
-                <div class="form-group col-md-6">
+                    <div class="sec01">
+                        <div class="contNome">
+                            <label for="Nome">Digite seu nome:</label>
+                            <input type="text" class="form-control" placeholder="Nome" id="nome1">
 
-                  <label for="Nome">Digite seu nome</label>
-                  <input type="text" class="form-control" placeholder="Nome" id="nome1">
+                            <div id="resNome"></div>
+                        </div>
+                        
+                        <div class="contEmail">
+                            <label for="inputEmail4">Digite seu e-mail:</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
 
-                  <div id="resNome"></div>
+                            <div id="resEmail"></div>
+                        </div>
 
-                  <label for="inputEmail4">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        
+                    </div>
+                    
+                    <div class="sec02">
+                        <div class="contSenha">
+                            <label for="inputPassword4">Senha</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
 
-                  <div id="resEmail"></div>
+                            <div id="resSenha"></div>  
+                        </div>
+                        
+                        <div class="contConfiSenha">
+                           <label for="inputPassword4">Confirme sua senha</label>
+                            <input type="password" class="form-control" id="inputPassword5" placeholder="Confirme sua senha">
 
-                  <label for="inputPassword4">Senha</label>
-                  <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
-
-                  <div id="resSenha"></div>
-
-                  <label for="inputPassword4">Confirme sua senha</label>
-                  <input type="password" class="form-control" id="inputPassword5" placeholder="Confirme sua senha">
-
-                  <div id="resSenhaCon"></div>
-
-                  <label for="inputRg">Digite seu RG</label>
-                  <input type="text" class="form-control" id="inputRg" placeholder="Digite seu RG">
-
-                  <div id="resRg"></div>
-
-                  <label for="inputCEP">Digite seu CEP</label>
-                  <input type="number" class="form-control" id="inputCEP" placeholder="00000-000">
-
-                  <div id="resCep"></div>
+                            <div id="resSenhaCon"></div> 
+                        </div>
+                        
+                    </div>
                   
-                  <label for="inputCity">Estado</label>
-                  <input type="text" class="form-control" id="inputEstado" placeholder="Estado">
+                    <div class="sec03">
+                        <label for="inputRg">Digite seu RG:</label>
+                        <input type="text" class="form-control" id="inputRg" placeholder="Digite seu RG">
 
-                  <label for="inputCity">Cidade</label>
-                  <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
+                        <div id="resRg"></div>
+                    </div>
+                  
+                    <div class="sec04">
+                        <div class="contCep">
+                           <label for="inputCEP">Digite seu CEP</label>
+                            <input type="number" class="form-control" id="inputCEP" placeholder="00000-000">
 
-                  <label for="inputAddress">Bairro</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="Bairro">
+                            <div id="resCep"></div>
 
-                  <label for="inputRua">Rua</label>
-                  <input type="text" class="form-control" id="inputRua" placeholder="Rua">                    
+                        </div>
+                        
+                        <div class="contEstado">
+                            <label for="inputCity">Estado</label>
+                            <input type="text" class="form-control" id="inputEstado" placeholder="Estado">
+                        </div>
+                            
+                        <div class="contCidade">
+                            <label for="inputCity">Cidade</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Cidade"> 
+                        </div>
+                                                  
+                    </div>
 
-                  <label for="inputNum">N°</label>
-                  <input type="number" class="form-control" id="inputNum">
+                    <div class="sec05">
+                        <div class="contBairro">
+                            <label for="inputAddress">Bairro</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Bairro">  
+                        </div>
+                        
+                        <div class="contRua">
+                            <label for="inputRua">Rua</label>
+                            <input type="text" class="form-control" id="inputRua" placeholder="Rua"> 
+                        </div>    
+                    </div>
 
-                  <label for="inputCom">Complemento</label>
-                  <input type="text" class="form-control" id="inputCom">
-
-                  <br>
-
-                  <input class="form-check-input" type="checkbox" id="gridCheck">
-                  <label class="form-check-label" for="gridCheck">
-                    Clique em mim
-                  </label>
-
-                  <button type="submit" id="submit" class="btn btn-primary">Entrar</button>
-
-                </div>               
-                                  
+                    <div class="sec06">
+                        <div class="contNumero">
+                           <label for="inputNum">N°</label>
+                            <input type="number" class="form-control" id="inputNum"> 
+                        </div>
+                        
+                        <div class="contCom">
+                            <label for="inputCom">Complemento</label>
+                            <input type="text" class="form-control" id="inputCom">
+                        </div>
+                        
+                    </div>
+                            
+                    <div class="sec07">
+                        <button type="submit" id="submit" class="btn btn-primary">Entrar</button>
+                    </div>                       
             </form>
-
         </section>
-       
     </main>
-
-    
+  
     <footer class="rodape">
 
       <section class="detalhes">
