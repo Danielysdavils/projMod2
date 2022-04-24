@@ -7,25 +7,24 @@ class usuarioController{
         const model = new Usuario()
 
         const nome = $('#nome1').val()
-        
-        // const email = $('#email').val()
+        const email = $('#inputEmail4').val()
         
         const view = new mostraUsuario()
 
         try {
             model.validaTipoNome(nome)
-            // model.validaEmail(email)
+            model.validaEmail(email)
            
             this.dadosUsuario.push(model)
             const dados = this.dadosUsuario
             console.log(dados);
 
             view.mostraNome(nome)
-            // view.mostraEmail(email)
+            view.mostraEmail(email)
 
         } catch (error) {
             view.mostraErroNome(error)
-            // view.mostraErroEmail(error)
+            view.mostraErroEmail(error)
         }
     }
 }

@@ -27,44 +27,48 @@ class Usuario{
     /* -------------------- METODOS --------------------- */
 
     validaTipoNome(nome){
-         if(this.validaNome(nome) === true){
-             this.setNome(nome)
-         }else{
-             throw new Error('Nome com caracteres invalidos!')
-         }
-     }
+        if(this.validaNome(nome) === true){
+            this.setNome(nome)
+        }else{
+            throw new Error('Nome com caracteres invalidos!')
+        }
+    }
 
-     validaNome(nome){
-         console.clear()
-         const letra1 = nome.split('')
+    validaNome(nome){
+        console.clear()
+        const letra1 = nome.split('')
 
-         for(let i = 0; i < letra1.length; i++){
+        for(let i = 0; i < letra1.length; i++){
             
-             const l = letra1[i]
+            const l = letra1[i]
 
-             const resposta = ('a' <= l && l <= 'z') || ('A' <= l && l <= 'Z')? true:false 
-             return resposta    
-         }
-     }
+            const resposta = ('a' <= l && l <= 'z') || ('A' <= l && l <= 'Z')? true:false 
+            return resposta    
+        }
+    }
 
+    /* ------------------- VALIDA EMAIL ------------------ */
 
-    // validaEmail(email){
-    //     if(email.indexOf('@')){
-    //         this.setEmail(email)
-    //     }else{
-    //         throw new Error('Digite um email valido!')
-    //     }
-    // }
+    validaEmail(email){
+        const emaill = email
+        if((emaill.indexOf('@') > 3) && (emaill.indexOf('.') > 7) && (emaill != '')){
+            this.setEmail(email)
+        }else{
+            throw new Error('Digite um email valido!')
+        }
+    }
 
-    // validaSenha(senha){
+    validaSenha(senha){
 
-    // }
+    }
 
-    // validaRg(rg){
+    validaRg(rg){
 
-    // }
+    }
     
 }
+
+/* ------------------------- VALIDA CEP ------------------------ */
 
 class Endereco{
     constructor(){
