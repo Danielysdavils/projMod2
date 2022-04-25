@@ -126,7 +126,6 @@ input{
 
 #email{
     height: 40px;
-    margin-bottom: 10px;
 }
 
 #email::placeholder{
