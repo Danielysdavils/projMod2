@@ -24,6 +24,8 @@ function validaEmail(){
     }
     catch(error){
         $("#msgErroEmail").css('visibility', 'visible')
+        $("#msgErroEmail").css('background-color', 'lightcoral')
+        $("#msgErroEmail").css('color', 'white')
         $("#msgErroEmail").text("Email Inválido")
     }
 }
