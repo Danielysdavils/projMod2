@@ -6,13 +6,13 @@ body{
     align-items: center;
 }
 
-header{
+/* header{
     width: 100%;
     background-color: var(--color1);
     color: var(--color5);
     display: flex;
     justify-content: center;
-}
+} */
 
 main{
     display: flex;
