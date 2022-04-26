@@ -5,16 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="../index/css/reset.css">
-    <link rel="stylesheet" href="./css/page_contato.css">
-    
+    <link rel="stylesheet" href="../index/css/reset.css" />
+    <link rel="stylesheet" href="./css/page_contato.css" />
+
     <title>Contato</title>
   </head>
   <body id="root">
+    <!-- Header - NavBar -->
+
     <header>
       <section class="logoTipo">
         <img
@@ -33,7 +38,7 @@
           <a href="#">
             <h2 class="nav">Serviço</h2>
           </a>
-          <a href="#">
+          <a href="./page_contato.html">
             <h2 class="nav">Contato</h2>
           </a>
         </div>
@@ -45,34 +50,66 @@
       </nav>
     </header>
 
+    <!-- Form contato -->
+
+    <form id="contato">
+      <fieldset>
+        <!-- <legend>Fale conosco</legend> -->
+        <label class="form-name" for="name"
+          >Nome: <br />
+          <input type="text" id="name" name="name" placeholder="Seu Nome" />
+        </label>
+        <br /><br />
+        <label class="form-email" for="email"
+          >Email: <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="meuemail@meuemail.com"
+        /></label>
+        <br /><br />
+        <label class="form-msg" for="message"
+          >Mensagem: <br />
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </label>
+        <br /><br />
+        <button class="form-btn" form="contato" type="submit">Enviar</button>
+      </fieldset>
+    </form>
+
+    <!-- Footer -->
+
     <footer class="rodape">
-
       <section class="detalhes">
-          <div class="logoFinal">
-              <img src="../pag_home/midia/icones/checkboxes.png" alt="logoTipo" class="imgLogoFooter">
-              <h1 class="txtLogoFooter">ToDo List</h1>
-          </div>
+        <div class="logoFinal">
+          <img
+            src="../pag_home/midia/icones/checkboxes.png"
+            alt="logoTipo"
+            class="imgLogoFooter"
+          />
+          <h1 class="txtLogoFooter">ToDo List</h1>
+        </div>
 
-          <div class="links">
-              <a href="#">
-                  <h3 class="linkFooter">Serviço</h3>
-              </a>
-              <a href="#">
-                  <h3 class="linkFooter">Contato</h3>
-              </a>
-              <a href="#">
-                  <h3 class="linkFooter">Cadastro</h3>
-              </a>
-              <a href="#">
-                  <h3 class="linkFooter">Login</h3>
-              </a>
-          </div>
+        <div class="links">
+          <a href="#">
+            <h3 class="linkFooter">Serviço</h3>
+          </a>
+          <a href="./page_contato.html">
+            <h3 class="linkFooter">Contato</h3>
+          </a>
+          <a href="#">
+            <h3 class="linkFooter">Cadastro</h3>
+          </a>
+          <a href="#">
+            <h3 class="linkFooter">Login</h3>
+          </a>
+        </div>
       </section>
 
       <section class="direitos">
-          <h1 class="txtDireitos">Todos os direitos reservados</h1>
+        <h1 class="txtDireitos">Todos os direitos reservados</h1>
       </section>
-
-  </footer>
+    </footer>
   </body>
 </html>
