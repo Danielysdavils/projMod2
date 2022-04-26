@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto:wght@100;300;400;500&display=swap');
+
 body{
     background-color: var(--color3);
     display: flex;
@@ -29,6 +31,13 @@ main{
     height: 50px;
 }
 
+/* .botao{
+    width: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+} */
+
 #colorPicker{
     height: 100%;
     border-radius: 50%;
@@ -43,14 +52,36 @@ main{
     gap: 20px;
 }
 
-textarea{
+.divBloco{
     padding: 10px;
     resize: none;
     width: 150px;
     height: 200px;
     border-radius: 10px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
+
+textarea{
+    padding: 10px;
+    resize: none;
+    width: 150px;
+    height: 100%;
+    border: 10px, solid, var(--color1);
+    border-radius: 10px;
+
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+/* textarea::placeholder{
+} */
 
 .botaoVerde{
     background: #28A745;
