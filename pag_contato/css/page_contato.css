@@ -1,7 +1,7 @@
 body {
   background-image: url(../../pag_home/css/8.png);
   background-position: center;
-  background-size: 1000px 1000px;
+  background-size: 1500px 1500px;
 }
 
 header {
@@ -87,39 +87,26 @@ a:hover {
 /*Div de texto*/
 
 .box-contato {
-  margin: 20px 0 0 20px;
+  margin-top: 50px;
   text-align: center;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   color: var(--color1);
 }
 
-/* Form */
+/* Div card-contatos */
 
-#contato {
-  width: 30%;
-  margin: 30px;
-  padding: 10px;
+.box-alunos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.form-name,
-.form-email,
-.form-msg {
-  padding-bottom: 5px;
-  font-family: "Roboto", sans-serif;
-}
-
-input,
-#message {
-  border: 1px solid gray;
-  padding: 5px;
-}
-
-.form-btn {
-  width: 25%;
-  padding: 7px;
-  background-color: var(--color1);
-  color: var(--color6);
+.card {
+  width: 11rem;
+  margin: 50px 10px 100px 10px;
 }
 
 /* footer */
