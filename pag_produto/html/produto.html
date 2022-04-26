@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../../index/css/reset.css">
     <link rel="stylesheet" href="../css/produto.css">
-    <link rel="stylesheet" href="../css/colorPicker.css">
 </head>
 <body id="root">
 
@@ -18,18 +17,11 @@
     </header>
 
     <main>
-        <div>
-            <input type="color">
-            <!-- <div id="color-picker">
-                <div class="wrapper-dropdown">
-                    <span @click="toggleDropdown()" v-html="selector"></span>
-                    <ul class="dropdown" v-show="active">
-                        <li v-for="color in colors" @click="setColor(color.hex, color.name)"><span :style="{background: color.hex}"></span> {{color.name}}</li>
-                        <li v-for="color in colors" @click="setColor(color.hex, color.name)"><span :style="{background: color.hex}"></span> {{color.name}}</li>
-                    </ul>
-                </div>
-            </div> -->
-            <button id="addPostIt" onclick="criaNovoBloco();" class="btn btn-secondary">Nova Nota</button>
+        <div id="divBotao">
+            <!-- <input type="color" id="colorPicker"> -->
+            <button id="addPostIt" onclick="criaNovoBlocoVerde();" class="btn btn-success btn-sm">   New   </button>
+            <button id="addPostIt" onclick="criaNovoBlocoAmarelo();" class="btn btn-warning btn-sm">   New   </button>
+            <button id="addPostIt" onclick="criaNovoBlocoVermelho();" class="btn btn-danger btn-sm">   New   </button>
         </div>
         <div id="divMae"></div>
     </main>
@@ -39,6 +31,5 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="../js/produto.js"></script>
-    <script src="../js/colorPicker.js"></script>
 </body>
 </html>
