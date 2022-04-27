@@ -175,29 +175,27 @@ class Endereco{
     pesquisaCep(cep){
 
         if(cep != '' && cep.length < 9){
-                
-            $.ajax({
+
+           const req =  $.ajax({
                 url: `https://viacep.com.br/ws/${cep}/json/?callback=?`,
                 dataType:'json',
-
-                success: (json) => {
-                    if(!(json.hasOwnProperty('erro'))){
-                        $('#inputEstado').val(json.uf);
-                        $('#inputCity').val(json.localidade);
-                        $('#inputAddress').val(json.bairro);
-                        $('#inputRua').val(json.logradouro);
-            
-                    }else{
-                        this.limpiaForm()
-                        throw new Error('❌ CEP não encontrado.')
-                    }
-                }
             })
 
+            req.done((json) => {
+
+                if('erro' in json){
+                    this.limpiaForm()
+                    throw new TypeError('❌ CEP não encontrado!')
+                }else{
+                    $('#inputEstado').val(json.uf);
+                    $('#inputCity').val(json.localidade);
+                    $('#inputAddress').val(json.bairro);
+                    $('#inputRua').val(json.logradouro);
+                }               
+            })       
         }else{
             this.limpiaForm()
             throw new Error('❌ formato de CEP inválido.');
         }
     }
-    
 }

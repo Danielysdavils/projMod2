@@ -86,10 +86,18 @@ $('#inputCEP').blur(function(){
     const model = new Endereco()
     const cep = $(this).val().replace(/\D/g, '')
     const view = new mostrarEndereco() 
+
     try {
-        model.pesquisaCep(cep)  
+        model.pesquisaCep(cep)
+        view.mostraCep(cep)
     } catch (error) {
         view.mostraErroCep(error)
+    }
+
+    try {
+
+    } catch (typeError) {
+        view.mostraTypeErro(typeError)
     }
 })
 
