@@ -40,7 +40,7 @@ div.linha{
 }
 
 form.formulario{
-    width: 80%;
+    width: 70%;
     height: 1000px;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@ form.formulario{
     justify-content: center;
 
     background-color: var(--color1);
-    border-radius: 0px 40px 0px 40px;
+    border-radius: 5px;
 }
 
 div.sec01{
@@ -61,6 +61,19 @@ div.sec01{
 
 input.form-control{
     width: 350px;
+}
+
+div.icon{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+}
+
+img.icone{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
 }
 
 div.sec02{
