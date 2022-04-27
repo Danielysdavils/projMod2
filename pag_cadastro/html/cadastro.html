@@ -10,8 +10,10 @@
      
     <link rel="stylesheet" href="../../index/css/style.css">
     <link rel="stylesheet" href="../css/cadastro.css">
+
     <link rel="stylesheet" href="../../index/css/reset.css">
     <link rel="stylesheet" href="../../index/css/media.css">
+    <link rel="stylesheet" href="../css/media_cadastro.css">
 
     <title>Cadastro</title>
 
@@ -56,75 +58,144 @@
 
         <section class="contForm">
 
+            <div class="secTit">
+                <h1 class="tit">Preencha o formulario para começar!</h1>
+                <div class="linha"></div>
+            </div>
+
             <form class="formulario"> 
-                <div class="form-group col-md-6">
+                    <div class="sec01">
+                        <div class="contNome">
+                            <label for="Nome">Digite seu nome:</label>
+                            <div class="icon">
+                                <img src="../css/icones/user.png" alt="icone de usuario" class="icone">
+                                <input type="text" class="form-control" placeholder="Nome" id="nome1">
+                            </div>
+                            <div id="resNome"></div>
+                        </div>
+                        
+                        <div class="contEmail">
+                            <label for="inputEmail4">Digite seu e-mail:</label>
+                            <div class="icon">
+                                <img src="../css/icones/email.png" alt="Icone de email" class="icone">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
 
-                  <label for="Nome">Digite seu nome</label>
-                  <input type="text" class="form-control" placeholder="Nome" id="nome1">
+                            <div id="resEmail"></div>
+                        </div>
 
-                  <div id="resNome"></div>
+                        
+                    </div>
+                    
+                    <div class="sec02">
+                        <div class="contSenha">
+                            <label for="inputPassword4">Senha</label>
+                            <div class="icon">
+                                <img src="../css/icones/cadeado.png" alt="Icone de senha" class="icone">
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                            </div>
 
-                  <label for="inputEmail4">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            <div id="resSenha"></div>  
+                        </div>
+                        
+                        <div class="contConfiSenha">
+                            <label for="inputPassword4">Confirme sua senha</label>
+                            <div class="icon">
+                                <img src="../css/icones/cadeado.png" alt="Icone de confirmação de senha" class="icone">
+                                <input type="password" class="form-control" id="inputPassword5" placeholder="Confirme sua senha">
+                            </div>
 
-                  <div id="resEmail"></div>
-
-                  <label for="inputPassword4">Senha</label>
-                  <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
-
-                  <div id="resSenha"></div>
-
-                  <label for="inputPassword4">Confirme sua senha</label>
-                  <input type="password" class="form-control" id="inputPassword5" placeholder="Confirme sua senha">
-
-                  <div id="resSenhaCon"></div>
-
-                  <label for="inputRg">Digite seu RG</label>
-                  <input type="text" class="form-control" id="inputRg" placeholder="Digite seu RG">
-
-                  <div id="resRg"></div>
-
-                  <label for="inputCEP">Digite seu CEP</label>
-                  <input type="number" class="form-control" id="inputCEP" placeholder="00000-000">
-
-                  <div id="resCep"></div>
+                            <div id="resSenhaCon"></div> 
+                        </div>
+                        
+                    </div>
                   
-                  <label for="inputCity">Estado</label>
-                  <input type="text" class="form-control" id="inputEstado" placeholder="Estado">
+                    <div class="sec03">
+                        <div class="contRg">
+                            <label for="inputRg">Digite seu RG:</label>
+                            <div class="icon">
+                                <img src="../css/icones/cartao-de-identificacao-pessoal.png" alt="Icone de identificação" class="icone">
+                                <input type="text" class="form-control" id="inputRg" placeholder="Digite seu RG">
+                            </div>
+                        </div>
 
-                  <label for="inputCity">Cidade</label>
-                  <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
+                        <div id="resRg"></div>
+                    </div>
+                  
+                    <div class="sec04">
+                        <div class="contCep">
+                           <label for="inputCEP">Digite seu CEP</label>
+                            <div class="icon">
+                                <img src="../css/icones/pin.png" alt="Icone de localização" class="icone">
+                                <input type="number" class="form-control" id="inputCEP" placeholder="00000-000">
+                            </div>
 
-                  <label for="inputAddress">Bairro</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="Bairro">
+                            <div id="resCep"></div>
 
-                  <label for="inputRua">Rua</label>
-                  <input type="text" class="form-control" id="inputRua" placeholder="Rua">                    
+                        </div>
+                        
+                        <div class="contEstado">
+                            <label for="inputCity">Estado</label>
+                            <div class="icon">
+                                <img src="../css/icones/cidade (1).png" alt="Icone de cidade" class="icone">
+                                <input type="text" class="form-control" id="inputEstado" placeholder="Estado">
+                            </div>
+                        </div>
+                            
+                        <div class="contCidade">
+                            <label for="inputCity">Cidade</label>
+                            <div class="icon">
+                                <img src="../css/icones/urbano.png" alt="" class="icone de cidade">
+                                <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
+                            </div> 
+                        </div>
+                                                  
+                    </div>
 
-                  <label for="inputNum">N°</label>
-                  <input type="number" class="form-control" id="inputNum">
+                    <div class="sec05">
+                        <div class="contBairro">
+                            <label for="inputAddress">Bairro</label>
+                            <div class="icon">
+                                <img src="../css/icones/sustentavel.png" alt="Icone de uma casa" class="icone">
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Bairro">
+                            </div> 
+                        </div>
+                        
+                        <div class="contRua">
+                            <label for="inputRua">Rua</label>
+                            <div class="icon">
+                                <img src="../css/icones/ruas.png" alt="Icone de uma rua" class="icone">
+                                <input type="text" class="form-control" id="inputRua" placeholder="Rua">
+                            </div> 
+                        </div>    
+                    </div>
 
-                  <label for="inputCom">Complemento</label>
-                  <input type="text" class="form-control" id="inputCom">
-
-                  <br>
-
-                  <input class="form-check-input" type="checkbox" id="gridCheck">
-                  <label class="form-check-label" for="gridCheck">
-                    Clique em mim
-                  </label>
-
-                  <button type="submit" id="submit" class="btn btn-primary">Entrar</button>
-
-                </div>               
-                                  
+                    <div class="sec06">
+                        <div class="contNumero">
+                           <label for="inputNum">N°</label>
+                            <div class="icon">
+                                <img src="../css/icones/numero.png" alt="Icone de identificação" class="icone">
+                                <input type="number" class="form-control" id="inputNum">
+                            </div>
+                        </div>
+                        
+                        <div class="contCom">
+                            <label for="inputCom">Complemento</label>
+                            <div class="icon">
+                                <img src="../css/icones/numero.png" alt="Icone de complemento" class="icone">
+                                <input type="text" class="form-control" id="inputCom">
+                            </div>
+                        </div>
+                        
+                    </div>
+                            
+                    <div class="sec07">
+                        <button type="submit" id="submit" class="btn btn-primary">Entrar</button>
+                    </div>                       
             </form>
-
         </section>
-       
     </main>
-
-    
+  
     <footer class="rodape">
 
       <section class="detalhes">
