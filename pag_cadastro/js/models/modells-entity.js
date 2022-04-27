@@ -138,7 +138,6 @@ class Endereco{
         this.cidade = '',
         this.bairro = '',
         this.rua = '',
-        this.numero = '',
         this.complemento = '';
     }
 
@@ -161,9 +160,6 @@ class Endereco{
     setRua(rua){
         this.rua = rua
     }
-    setNumero(numero){
-        this.numero = numero
-    }
 
     setComplemento(complemento){
         this.complemento = complemento
@@ -174,7 +170,6 @@ class Endereco{
         $('#inputCity').val('');
         $('#inputAddress').val('');
         $('#inputRua').val('');
-        $('#inputNum').val('');
     }
 
     pesquisaCep(cep){
@@ -191,7 +186,7 @@ class Endereco{
                         $('#inputCity').val(json.localidade);
                         $('#inputAddress').val(json.bairro);
                         $('#inputRua').val(json.logradouro);
-                        $('#inputNum').val(json.ibge);
+            
                     }else{
                         this.limpiaForm()
                         throw new Error('❌ CEP não encontrado.')
