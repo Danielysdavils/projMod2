@@ -1,0 +1,491 @@
+@media(min-width: 200px) and (max-width: 600px){
+
+    /* ------ SEC01 -----*/
+
+    section.sec1{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    article.contText{
+        width: 100%;
+        height: 300px;
+    }
+    p.tit01{
+        font-size: 20px;
+    }
+    p.tit02{
+        font-size: 15px;
+    }
+    div.contBot02{
+        width: 100%;
+        height: 80px;
+    }
+    button#bot01{
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+    aside.sec1{
+        width: 100%;
+        height: 250px;
+    }
+    img#imgSec1{
+        width: 200px;
+        height: 200px;
+    }
+
+    /* ------- SEC02 --------*/
+
+    section.sec2{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    section.conTxt03{
+        width: 100%;
+        height: 160px;
+    }
+    h2.txt03{
+        font-size: 30px;
+    }
+    section.contTar{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+    div.target{
+        width: 200px;
+        height: 250px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    img.icon01{
+        width: 70px;
+        height: 70px;
+    }
+    h3.txt04{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.contBot04{
+        height: 50px;
+    }
+    button#bot04{
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    /* ----- SEC 03 -------*/
+
+    section.sec3{
+        height: 1000px;
+    }
+
+    div.target04{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+    }
+    aside.img04{
+        width: 30%;
+        height: 350px;
+        display: flex;
+    }
+    article.art01{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        height: 350px;
+        width: 60%;
+    }
+    aside.img05{
+        width: 30%;
+        height: 350px;
+        display: flex;
+    }
+    article.art02{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        height: 350px;
+        width: 60%;
+    }
+    article.art03{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        height: 350px;
+        width: 60%;
+    }
+    aside.img06{
+        width: 30%;
+        height: 350px;
+        display: flex;
+    }
+
+    div.contIcone03{
+        width: 100px;
+        height: 100px;
+    }
+    img.icone03{
+        width: 70px;
+        height: 70px;
+    }
+    div.barra03{
+        height: 130px;
+    }
+    h2.txt05{
+        font-size: 20px;
+    }
+    div.barra04{
+        width: 100px;
+    }
+    p.txt05{
+        font-size: 15px;
+    }
+
+    /* --------- SECTION 04 ------- */
+
+    section.sec4{
+        width: 100%;
+        height: 2000px;
+    }
+    div.contTxt06{
+        width: 100%;
+        height: 100px;
+    }
+    h1.txt06{
+        font-size: 20px;
+    }
+    section.contGraf{
+        width: 100%;
+        height: 700px;
+    }
+    div.cuadradoGraf{
+        width: 80%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+    h3.txt07{
+        font-size: 15px;
+    }
+    h2.txt08{
+        font-size: 50px;
+    }
+    div.barra07{
+        width: 70px;
+    }
+
+    section.citacao{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+    div.card{
+        width: 90%;
+    }
+    p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    img.imgP{
+        width: 200px;
+        height: 200px;
+    }
+
+    /**/
+
+    section.contInfoFinal{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    article.infoFinal{
+        width: 100%;
+        height: 230px;
+    }
+    h2.info{
+        font-size: 20px;
+        margin: 20px;
+    }
+    button#bot06{
+        width: 100px;
+        margin: 20px;
+    }
+    aside.imgFinal{
+        width: 100%;
+        height: 300px;
+    }
+    img.img09{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media(min-width: 601px) and (max-width: 800px){
+
+    /* --- SEÇÃO 1 ---- */
+    
+    section.sec1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    article.contText{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    p.tit01{
+        font-size: 30px;
+    }
+    p.tit02{
+        font-size: 15px;
+    }
+    aside.sec1{
+        width: 100%;
+        height: 350px;
+    }
+    img#imgSec1{
+        width: 300px;
+        height: 300px;
+    }
+
+    /* ---- SEÇÃO 02 ---- */
+
+    section.sec2{
+        width: 100%;
+    }
+    section.conTxt03{
+        width: 100%;
+    }
+    h2.txt03{
+        font-size: 30px;
+    }
+    section.contTar{
+        display: flex;
+        align-items: flex-start;
+    }
+    div.target{
+        width: 190px;
+        height: 350px;
+    }
+    img.icon01{
+        width: 100px;
+        height: 100px;
+    }
+    h3.txt04{
+        font-size: 20px;
+    }
+    button#bot04{
+        width: 150px;
+    }
+
+    /* --- SEÇÃO 03 --- */
+
+    section.sec3{
+        width: 100%;
+        height: 1700px;
+    }
+    div.target04{
+        width: 100%;
+        height: 400px;
+
+    }
+    aside.img04{
+        width: 40%;
+        height: 400px;
+    }
+    div.contIcone03{
+        width: 200px;
+        height: 200px;
+    }
+    img.icone03{
+        width: 150px;
+        height: 150px;
+    }
+    div.barra03{
+        height: 165px;
+    }
+    article.art01{
+        width: 50%;
+        height: 400px;
+        margin-top: 100px ;
+    }
+    article.art02{
+        width: 50%;
+    }
+    article.art03{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    h2.txt05{
+        font-size: 40px;
+    }
+    p.txt05{
+        font-size: 15px;
+    }
+    div.barra04{
+        width: 210px;
+    }
+    aside.img05{
+        width: 40%;
+        height: 520px;
+    }
+    aside.img06{
+        width: 40%;
+        height: 400px;
+    }
+
+
+    /* --- SEÇÃO 04 --- */
+
+    section.sec4{
+        width: 100%;
+        height: 2000px;
+    }
+    div.contTxt06{
+        width: 100%;
+        height: 150px;
+    }
+    h1.txt06{
+        font-size: 40px;
+    }
+    div.cuadradoGraf{
+        width: 90%;
+        height: 380px;
+    }
+    h3.txt07{
+        font-size: 15px; 
+    }
+    h2.txt08{
+        font-size: 50px;
+    }
+    div.barra07{
+        width: 100px
+    }
+
+    /**/
+
+    section.citacao{
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+    }
+    div.card{
+        width: 90%;
+    }
+    p{
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    /* --- SEÇÃO FINAL --- */
+
+    section.contInfoFinal{
+        display: flex;
+        flex-direction: column;
+    }
+    article.infoFinal{
+        width: 100%;
+        height: 450px;
+    }
+    h2.info{
+        font-size: 30px;
+    }
+    button#bot06{
+        width: 150px;
+        height: 50px;
+    }
+    aside.imgFinal{
+        width: 100%;
+    }
+    img.img09{
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+@media(min-width: 801px) and (max-width: 1090px){
+
+    /* Section 1 */
+
+    p.tit01{
+        font-size: 40px;
+    }
+    img#imgSec1{
+        width: 400px;
+        height: 400px;
+    }
+
+    /* --- SEÇÃO 02 --- */
+
+    h2.txt03{
+        font-size: 40px;
+    }
+    div.target{
+        width: 240px;
+        height: 450px;
+    }
+    /* ---- SEÇÃO 3----- */
+
+    div.target04{
+        width: 100%;
+    }
+    article.art01{
+        width: 50%;
+        height: 500px;
+        margin-top: 100px;
+    }
+    article.art02{
+        width: 50%;
+        height: 500px;
+    }
+    article.art03{
+        width: 50%;
+        height: 500px;
+    }
+
+    /* --- SEÇÃO 04 --- */
+
+    div.card{
+        width: 50%;
+    }
+    p{
+        font-size: 15px;
+    }
+
+    h2.info{
+        font-size: 25px;
+    }
+    img.img09{
+        width: 500px;
+        height: 500px;
+    }
+
+}
+@media(min-width: 2000px) and (max-width: 3000px){
+    
+    /* ---- SEÇÃO 3----- */
+
+    section.sec4{
+        background-image: url("9.png");
+        background-position: center;
+        background-size: 3000px 3000px; 
+    } 
+}
