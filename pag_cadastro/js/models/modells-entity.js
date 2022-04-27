@@ -185,7 +185,7 @@ class Endereco{
 
                 if('erro' in json){
                     this.limpiaForm()
-                    throw new TypeError('❌ CEP não encontrado!')
+                    $('#resCep').html('❌ CEP não encontrado!').css('color', '#d25151')
                 }else{
                     $('#inputEstado').val(json.uf);
                     $('#inputCity').val(json.localidade);

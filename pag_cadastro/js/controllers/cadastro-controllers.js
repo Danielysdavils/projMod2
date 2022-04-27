@@ -94,11 +94,6 @@ $('#inputCEP').blur(function(){
         view.mostraErroCep(error)
     }
 
-    try {
-
-    } catch (typeError) {
-        view.mostraTypeErro(typeError)
-    }
 })
 
 $('#submit').click((e) => {

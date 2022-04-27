@@ -69,11 +69,5 @@ class mostrarEndereco{
         res.html(error).css('color', '#d25151')
     }
 
-    mostraTypeErro(typeError){
-        const rest = $('#resEs')
-        rest.html(typeError).css('color', '#d25151')
-    }
-
-
 }
 
