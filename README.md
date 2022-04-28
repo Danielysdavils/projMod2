@@ -84,3 +84,7 @@
 <h3>Victor Gabriel</h3>
 <img src="https://media.discordapp.net/attachments/490909335468245002/969340172569280612/1551114448609.jpg" width="200px" height="200px"><br>
 <a href="https://www.linkedin.com/in/victor-gabriel-camargo-guedes-9a803a180/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+
+<h3>Gustavo Arcoverde</h3>
+<img src="https://media.discordapp.net/attachments/490909335468245002/969340173433335928/1645490372043.jpg" width="200px" height="200px"><br>
+<a href="https://www.linkedin.com/in/gustavo-arcoverde/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
