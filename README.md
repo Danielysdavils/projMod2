@@ -30,3 +30,10 @@
 <img src="">
 
 <hr>
+
+<h3>Detalhes do Serviço</h3>
+<p>Aqui, temos tudo que o nosso produto é capaz de fazer detalhadamente, além dos nossos planos de assinatura</p>
+<img src="">
+<img src="">
+
+<hr>
