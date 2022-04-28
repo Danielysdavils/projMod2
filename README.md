@@ -70,21 +70,26 @@
 <p>Participantes do projeto e seus respectivos contatos:</p>
 
 <h3>Danielys Davila<h3>
+<p>Responsável pela página inicial e de cadastro.</p>
 <img src="https://media.discordapp.net/attachments/490909335468245002/969340173815013467/1647380581333.jpg?width=670&height=670" width="200px" height="200px"><br>
 <a href="https://www.linkedin.com/in/danielys-davila/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
 <h3>Priscila Souza<h3>
+<p>Responsável pela página de contatos.</p>
 <img src="https://media.discordapp.net/attachments/490909335468245002/969340173148114944/1641404274670.jpg?width=670&height=670" width="200px" height="200px"><br>
 <a href="https://www.linkedin.com/in/priscila-souza-dev/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
 <h3>Matheus Yukio</h3>
+<p>Responsável pela página de detalhes do serviço.</p>
 <img src="https://media.discordapp.net/attachments/490909335468245002/969340172879691836/1636475546105.jpg?width=670&height=670" width="200px" height="200px"><br>
 <a href="https://www.linkedin.com/in/matheushocihara/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
 <h3>Victor Gabriel</h3>
+<p>Responsável pela página do produto.</p>
 <img src="https://media.discordapp.net/attachments/490909335468245002/969340172569280612/1551114448609.jpg" width="200px" height="200px"><br>
 <a href="https://www.linkedin.com/in/victor-gabriel-camargo-guedes-9a803a180/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
 <h3>Gustavo Arcoverde</h3>
+<p>Responsável pela página de login, recuperação de senha e readme.</p>
 <img src="https://media.discordapp.net/attachments/490909335468245002/969340173433335928/1645490372043.jpg" width="200px" height="200px"><br>
 <a href="https://www.linkedin.com/in/gustavo-arcoverde/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
