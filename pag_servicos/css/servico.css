@@ -1,24 +1,68 @@
 
 /* parte superior do body: detalhe do produto e assinaturaA */
-.detalheDoProduto{
-    margin-top: 50px;
-    margin-left: 40px;
-    margin-bottom: 50px;
+.descricoesDoProduto{
+    display: flex;
+    width: 100%;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.detalheDoProduto div {
-    width: 67%;
-    height: 200px;
-  }
-  
-  .detalheDoProduto div:nth-child(2n+1)
+.detalheDoProduto{
+    display: flex;
+    width: 70%;
+    flex-direction:column;
+} 
+  .detalheDoProduto div:nth-child(even)
    {
     background-color: gainsboro;
   }
   
-  .detalheDoProduto div:nth-child(2n){
-    background-color: silver;
+  .detalheDoProduto div:nth-child(odd){
+    background-color:aqua;
   }
 
+
+  #iconesDosProdutos{
+      display: flex;
+      flex-direction: row;
+      width: 30px;
+      height: 20px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .planoDeAssinatura{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: 650px;
+      padding: 100px;
+  }
+
+.planosDeAssinaturaDisponiveis{
+    display: flex;
+    width: 30%;
+    height: 90%;
+    border-radius: 30px;
+    box-shadow: 5px 4px 20px grey;
+    background-color: blueviolet;
+    
+}
 
