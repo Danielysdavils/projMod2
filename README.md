@@ -26,8 +26,8 @@
 <h2>Páginas:</h2>
 <h3>Página Inicial:</h3>
 <p>Essa página tinha como objetivo trazer um breve resumo das funcionalidades,  benefícios, opiniões e dados sobre nosso produto</p>
-<img src="">
-<img src="">
+<img src="https://cdn.discordapp.com/attachments/490909335468245002/969360514201309184/unknown.png" width="500" height="300">
+<img src="https://cdn.discordapp.com/attachments/490909335468245002/969360899938865232/80644d02-0f01-41e3-ae0b-9fcd5af2d58b.jpg" width="290" height="470">
 
 <hr>
 
