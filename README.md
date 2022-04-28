@@ -59,3 +59,10 @@
 
 <hr>
 
+<h3>Contatos</h3>
+<p>Aqui, encontramos todos os contatos dos integrantes da equipe.</p>
+<img src="">
+<img src="">
+
+<hr>
+
