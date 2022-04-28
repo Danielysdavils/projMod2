@@ -66,3 +66,9 @@
 
 <hr>
 
+<h3>Produto</h3>
+<p>Essa página é um layout básico da página inicial do nosso produto. Sendo o foco do projeto desenvolver a capacidade de trabalhar com branches, decidimos que a página iria conter somente o visual e uma funcionalidade de adicionar anotações do usuário, que é o que está presente na imagem.</p>
+<img src="">
+<img src="">
+
+<hr>
