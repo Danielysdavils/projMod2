@@ -66,9 +66,11 @@
 
 <hr>
 
-<h3>Produto</h3>
-<p>Essa página é um layout básico da página inicial do nosso produto. Sendo o foco do projeto desenvolver a capacidade de trabalhar com branches, decidimos que a página iria conter somente o visual e uma funcionalidade de adicionar anotações do usuário, que é o que está presente na imagem.</p>
-<img src="">
-<img src="">
-
+<h2>Autores:</h2>
 <hr>
+<p>Participantes do projeto e seus respectivos contatos:</p>
+
+<h4>Danielys Davila<h4>
+<p>Desenvolveu página inicial e página de cadastro.</p>
+<img src="https://media.discordapp.net/attachments/490909335468245002/969340173815013467/1647380581333.jpg?width=670&height=670" width="200px" height="200px">
+<a href="https://www.linkedin.com/in/danielys-davila/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
