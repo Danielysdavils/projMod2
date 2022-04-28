@@ -26,22 +26,30 @@
 <h2>Páginas:</h2>
 <h3>Página Inicial:</h3>
 <p>Essa página tinha como objetivo trazer um breve resumo das funcionalidades,  benefícios, opiniões e dados sobre nosso produto</p>
+<div display="flex">
 <img src="https://cdn.discordapp.com/attachments/490909335468245002/969360514201309184/unknown.png" width="500" height="300">
 <img src="https://cdn.discordapp.com/attachments/490909335468245002/969360899938865232/80644d02-0f01-41e3-ae0b-9fcd5af2d58b.jpg" width="290" height="470">
+</div>
 
 <hr>
+
 
 <h3>Detalhes do Serviço</h3>
 <p>Aqui, temos tudo que o nosso produto é capaz de fazer detalhadamente, além dos nossos planos de assinatura</p>
+<div display="flex">
 <img src="">
 <img src="">
+</div>
 
 <hr>
 
+
 <h3>Cadastro</h3>
 <p>Página de cadastro onde usamos a API ViaCEP para conseguirmos automatizar o processo de inserção do endereço do usuário</p>
-<img src="">
-<img src="">
+<div display="flex">
+<img src="https://cdn.discordapp.com/attachments/490909335468245002/969360950853513306/unknown.png" width="500" height="300">
+<img src="https://cdn.discordapp.com/attachments/490909335468245002/969361120206917632/366bbee9-2d22-459d-83e0-b25d8f8490a7.jpg" width="290" height="470">
+</div>
 
 <hr>
 
@@ -56,15 +64,19 @@
 
 <h3>Página de Recuperar Senha</h3>
 <p>Essa página segue um princípio parecido com a de Login, onde os usuários colocam seu e-mail de recuperação de senha e recebem a mensagem "e-mail de redefinição de senha enviado" caso o e-mail atenda os requisitos e, caso contrário, "e-mail inválido".</p>
+<div display="flex">
 <img src="">
 <img src="">
+</div>
 
 <hr>
 
 <h3>Contatos</h3>
 <p>Aqui, encontramos todos os contatos dos integrantes da equipe.</p>
+<div display="flex">
 <img src="">
 <img src="">
+</div>
 
 <hr>
 
