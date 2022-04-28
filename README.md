@@ -51,3 +51,11 @@
 <img src="">
 
 <hr>
+
+<h3>Página de Recuperar Senha</h3>
+<p>Essa página segue um princípio parecido com a de Login, onde os usuários colocam seu e-mail de recuperação de senha e recebem a mensagem "e-mail de redefinição de senha enviado" caso o e-mail atenda os requisitos e, caso contrário, "e-mail inválido".</p>
+<img src="">
+<img src="">
+
+<hr>
+
