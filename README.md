@@ -76,3 +76,7 @@
 <h3>Priscila Souza<h3>
 <img src="https://media.discordapp.net/attachments/490909335468245002/969340173148114944/1641404274670.jpg?width=670&height=670" width="200px" height="200px"><br>
 <a href="https://www.linkedin.com/in/priscila-souza-dev/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+
+<h3>Matheus Yukio</h3>
+<img src="https://media.discordapp.net/attachments/490909335468245002/969340172879691836/1636475546105.jpg?width=670&height=670" width="200px" height="200px"><br>
+<a href="https://www.linkedin.com/in/matheushocihara/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
