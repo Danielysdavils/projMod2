@@ -1,4 +1,4 @@
-@media(max-width: 769px){
+@media(max-width: 2560px){
     /* HEADER */
     header{
         display: flex;
@@ -8,7 +8,66 @@
     }
 
     section.logoTipo{
-       width: 20%;
+       width: 30%;
+    }
+    img#logo{
+        width: 80px;
+        height: 80px;
+    }
+
+    h1#nome{
+        font-size: 30px;
+    }
+
+    div.contNav{
+        width: 70%;
+    }
+    div.contBot{
+        width: 40%;
+    }
+
+    nav.barraNav{
+        width: 70%;
+    }
+    
+    .btn{
+        width: 85px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    h2.nav{
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+    
+    img.imgLogoFooter{
+        width: 75px;
+        height: 75px;
+    }
+    h1.txtLogoFooter{
+        font-size: 25px;
+    }
+    h3.linkFooter{
+        font-size: 20px;
+    }
+    h1.txtDireitos{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1025px){
+    /* HEADER */
+    header{
+        display: flex;
+        height: 200px;
+        align-items: center;
+    
+    }
+
+    section.logoTipo{
+       width: 30%;
     }
     img#logo{
         width: 40px;
@@ -16,21 +75,89 @@
     }
 
     h1#nome{
-        font-size: 20px;
+        font-size: 30px;
+    }
+
+    div.contNav{
+        width: 70%;
+    }
+    div.contBot{
+        width: 40%;
     }
 
     nav.barraNav{
-        width: 80%;
+        width: 70%;
     }
     
     .btn{
-        width: 50px;
-        height: 20px;
-        font-size: 5px;
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
     }
 
     h2.nav{
+        font-size: 18px;
+    }
+
+    /* FOOTER */
+
+    img.imgLogoFooter{
+        width: 70px;
+        height: 70px;
+    }
+    h1.txtLogoFooter{
+        font-size: 20px;
+    }
+    h3.linkFooter{
         font-size: 15px;
+    }
+    h1.txtDireitos{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 769px){
+    /* HEADER */
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+
+    section.logoTipo{
+        width: 100%;
+        height: 90px;
+    }
+    img#logo{
+        width: 60px;
+        height: 60px;
+    }
+
+    h1#nome{
+        font-size: 30px;
+    }
+
+    nav.barraNav{
+        width: 100%;
+        height: 80px;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.contNav{
+        width: 100%;
+    }
+
+    div.contBot{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .btn{
+        width: 70px;
+        font-size: 10px;
+    }
+
+    h2.nav{
+        font-size: 20px;
     }
 
     /* MAIN */
@@ -46,6 +173,39 @@
 
     #caixaDeRecupSenha{
         width: 60%;
+    }
+
+    /* FOOTER */
+
+    footer.rodape{
+        height: 300px;
+    }
+    section.detalhes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.logoFinal{
+        width: 100%;
+    }
+    img.imgLogoFooter{
+        width: 60px;
+        height: 60px;
+    }
+    h1.txtLogoFooter{
+        font-size: 20px;
+    }
+    div.links{
+        width: 100%;
+    }
+    h3.linkFooter{
+        font-size: 15px;
+    }
+    section.direitos{
+        height: 80px;
+    }
+    h1.txtDireitos{
+        font-size: 15px;
     }
 }
 
@@ -84,13 +244,13 @@
         width: 100%;
         margin-top: 10px;
     }
-    div.contBot{
-        width: 50px;
-        height: 20px;
+    .btn{
+        width: 60px;
+        font-size: 10px;
     }
 
     h2.nav{
-        font-size: 20px;
+        font-size: 15px;
     }
     /* MAIN */
 
