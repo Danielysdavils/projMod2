@@ -1,4 +1,9 @@
 
+a{
+  text-decoration: none;
+}
+
+
 main{
   display: flex;
   width: 100%;
@@ -18,7 +23,12 @@ h2{
   font-family: 'Roboto', sans-serif;
   color: black;
 }
+h3{
+  display: flex;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 
+}
 p{
   display: flex;
   font-family: 'Roboto Condensed', sans-serif;
@@ -107,22 +117,21 @@ margin: 20px;
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: space-between;
-      width: 100%;
-      padding: 10px;
+      width: 90%;
+      justify-content: center;
   }
 
 .planosDeAssinaturaDisponiveis{
     display: flex;
-    width: 30vw;
-    height: 90vh;
+    width: 20vw;
+    height: 70vh;
     border-radius: 30px;
     box-shadow: 5px 4px 20px grey;
     background-color: var(--color1);
     color: aliceblue;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
+    margin: 20px;
 }
 
 .planosDeAssinaturaDisponiveis:hover{
@@ -141,7 +150,17 @@ margin: 20px;
   border-radius: 30px;
 }
 
+.tituloPlano{
+  display: flex;
+  font-size: 20px;
+  color: aliceblue;
+}
 
+.precoPlano{
+  display: flex;
+  font-size: 20px;
+  color: aliceblue;
+}
 
 #iconesDeAssinatura{
 display: flex;
@@ -154,6 +173,4 @@ margin: 10px;
 
 .beneficios{
   display: flex;
-  padding-top: 5px;
-  text-align: center;
 }
