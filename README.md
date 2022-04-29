@@ -37,7 +37,7 @@
 <h3>Detalhes do Serviço</h3>
 <p>Aqui, temos tudo que o nosso produto é capaz de fazer detalhadamente, além dos nossos planos de assinatura</p>
 <div display="flex">
-<img src="">
+<img src="https://media.discordapp.net/attachments/969628595070828603/969629713322635324/print_site.png" width="500" height="300">
 <img src="">
 </div>
 
@@ -76,6 +76,15 @@
 <div display="flex">
 <img src="">
 <img src="">
+</div>
+
+<hr>
+
+<h3>Produto</h3>
+<p>Nesta página, há um pequeno preview da funcionalidade que criamos para ser a página de anotações do nosso produto</p>
+<div display="flex">
+<img src="https://media.discordapp.net/attachments/969324554742800456/969324629393043606/unknown.png?width=1255&height=670" width="500" height="300">
+<img src="https://media.discordapp.net/attachments/969324554742800456/969665284044627998/unknown.png?width=445&height=670" width="290" height="470">
 </div>
 
 <hr>
