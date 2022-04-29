@@ -1,0 +1,33 @@
+@media(min-width: 200px) and (max-width: 500px){
+    /* SLIDES */
+    #paragrafoDoSlide{
+        display: none;
+    }
+    
+    
+    /* DETALHES DE PRODUTO */
+    .comunicacao{
+        display:flex;
+        justify-content: space-between;
+    }
+    .comunicacaoChild{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img#iconesDosProdutos{
+        display: none;
+    }
+
+    /* PLANO DE ASSINATURA */
+    .planoDeAssinatura{
+        display: flex;
+        flex-direction: column;
+  
+    }
+    .planosDeAssinaturaDisponiveis{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
