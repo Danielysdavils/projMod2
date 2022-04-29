@@ -74,8 +74,8 @@
 <h3>Contatos</h3>
 <p>Aqui, encontramos todos os contatos dos integrantes da equipe.</p>
 <div display="flex">
-<img src="">
-<img src="">
+<img src="https://cdn.discordapp.com/attachments/490909335468245002/969706076259909684/unknown.png" width="500" height="300">
+<img src="https://cdn.discordapp.com/attachments/490909335468245002/969706310960566272/a68e9564-25f2-445e-9062-07e9c503fd5c.jpg" width="290" height="470">
 </div>
 
 <hr>
