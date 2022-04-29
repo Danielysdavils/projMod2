@@ -38,7 +38,7 @@
 <p>Aqui, temos tudo que o nosso produto é capaz de fazer detalhadamente, além dos nossos planos de assinatura</p>
 <div display="flex">
 <img src="https://media.discordapp.net/attachments/969628595070828603/969629713322635324/print_site.png" width="500" height="300">
-<img src="">
+<img src="https://media.discordapp.net/attachments/969628595070828603/969680115250376774/print_site_responsivo.png" width="290" height="470">
 </div>
 
 <hr>
