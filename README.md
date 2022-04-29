@@ -47,7 +47,7 @@
 <h3>Cadastro</h3>
 <p>Página de cadastro onde usamos a API ViaCEP para conseguirmos automatizar o processo de inserção do endereço do usuário</p>
 <div display="flex">
-<img src="https://media.discordapp.net/attachments/490909335468245002/969728145030803576/unknown.png" width="500" height="300">
+<img src="https://media.discordapp.net/attachments/490909335468245002/969360950853513306/unknown.png" width="500" height="300">
 <img src="https://media.discordapp.net/attachments/490909335468245002/969361120206917632/366bbee9-2d22-459d-83e0-b25d8f8490a7.jpg?width=588&height=670" width="290" height="470">
 </div>
 
