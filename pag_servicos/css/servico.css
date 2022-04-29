@@ -1,51 +1,82 @@
 
+
+
 /* parte superior do body: detalhe do produto e assinaturaA */
 .descricoesDoProduto{
     display: flex;
     width: 100%;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .detalheDoProduto{
     display: flex;
-    width: 70%;
-    flex-direction:column;
-} 
-  .detalheDoProduto div:nth-child(even)
-   {
-    background-color: gainsboro;
-  }
-  
-  .detalheDoProduto div:nth-child(odd){
-    background-color:aqua;
-  }
+    flex-direction: column;
+    border-bottom: 150px solid var(--color1) ;
+  } 
 
+.slideDescritivo{
+  display: flex;
+  border-bottom: 150px solid var(--color1) ;
+}
+.carousel-caption{
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  color: black;
+}
 
-  #iconesDosProdutos{
-      display: flex;
-      flex-direction: row;
-      width: 30px;
-      height: 20px;
+.sr-only{
+  display: flex;
+  color: black;
+}
+.comunicacao{
+  display: flex;
+  flex-direction: column;
+}
+.comunicaçãoChild{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+.containerChild{
+  display: flex;
+  align-items: center;
+}
 
-  }
+#barra01{
+  width: 200px;
+  height: 5px;
+  background-color: var(--color1);
+  margin: 10px;
+  border-radius: 30px;
+}
+img#comunicaçãoChild{
+  display: flex;
+  width: 10vw;
+height: 25vh;
+border-radius: 10px ;
+box-shadow: 0px 0px 10px black;
+margin: 20px;
+}
 
+.comunicação{
+  display: flex;
+  justify-content: left;
+  flex-direction:row;
+}
+/* icones de imagem */
+img#iconesDosProdutos{
+display: flex;
+width: 30vw;
+height: 45vh;
+border-radius: 10px ;
+box-shadow: 0px 0px 10px black;
+margin: 20px;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* planos de assinatura */
   .planoDeAssinatura{
       display: flex;
       flex-direction: row;
@@ -53,16 +84,51 @@
       justify-content: space-between;
       width: 100%;
       height: 650px;
-      padding: 100px;
+      padding: 30px;
   }
 
 .planosDeAssinaturaDisponiveis{
     display: flex;
-    width: 30%;
-    height: 90%;
+    width: 30vw;
+    height: 70vh;
     border-radius: 30px;
     box-shadow: 5px 4px 20px grey;
-    background-color: blueviolet;
-    
+    background-color: var(--color1);
+    color: aliceblue;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
 }
 
+.planosDeAssinaturaDisponiveis:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.4s;
+  border: 2px solid black;
+}
+
+#barra{
+  width: 200px;
+  height: 5px;
+  background-color: var(--color6);
+  margin: 10px;
+  border-radius: 30px;
+}
+
+
+
+#iconesDeAssinatura{
+display: flex;
+width:1vw;
+height: 2vh;
+border-radius: 10px ;
+box-shadow: 0px 0px 10px black;
+margin: 10px;
+}
+
+.beneficios{
+  display: flex;
+  padding-top: 5px;
+  text-align: center;
+}
