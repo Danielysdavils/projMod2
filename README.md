@@ -83,7 +83,7 @@
 <h3 id="produto">Produto</h3>
 <p>Nesta página, há um pequeno preview da funcionalidade que criamos para ser a página de anotações do nosso produto</p>
 <div display="flex">
-<img src="https://media.discordapp.net/attachments/969324554742800456/969324629393043606/unknown.png?width=1255&height=670" width="500" height="300">
+<img src="https://media.discordapp.net/attachments/490909335468245002/969728144372289576/unknown.png" width="500" height="300">
 <img src="https://media.discordapp.net/attachments/969324554742800456/969665284044627998/unknown.png?width=445&height=670" width="290" height="470">
 </div>
 
