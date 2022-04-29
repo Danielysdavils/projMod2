@@ -18,43 +18,57 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="../index/css/reset.css" />
+    <!-- Links Header e Footer -->
+
+    <link rel="stylesheet" href="../index/css/style.css">
+    <link rel="stylesheet" href="../index/css/reset.css">
+    <link rel="stylesheet" href="../index/css/media.css">
+    
+    <!--  -->
+
     <link rel="stylesheet" href="./css/page_contato.css" />
 
     <title>Contato</title>
   </head>
   <body id="root">
+
     <!-- Header - NavBar -->
 
-    <header>
-      <section class="logoTipo">
-        <img
-          src="../pag_home/midia/icones/checkboxes.png"
-          alt="logoTipo produto"
-          id="logo"
-        />
-        <h1 id="nome">ToDo List</h1>
-      </section>
+    <!-- Aqui começa o cabeçalho -->
 
-      <nav class="barraNav">
-        <div class="contNav">
-          <a href="../index.html">
-            <h2 class="nav">Home</h2>
-          </a>
-          <a href="#">
-            <h2 class="nav">Serviço</h2>
-          </a>
-          <a href="./page_contato.html">
-            <h2 class="nav">Contato</h2>
-          </a>
-        </div>
+        <header>
 
-        <div class="contBot">
-          <button type="button" class="btn btn-outline-dark">Cadastro</button>
-          <button type="button" class="btn btn-outline-dark">Login</button>
-        </div>
-      </nav>
-    </header>
+            <section class="logoTipo">
+                <img src="../index/media/logoT.png" alt="logoTipo produto" id="logo">
+                <h1 id="nome">DailyCheck</h1>
+            </section>
+
+            <nav class="barraNav">
+
+                <div class="contNav">
+                    <a href="../index.html">
+                        <h2 class="nav">Home</h2>
+                    </a>
+                    <a href="../pag_servicos/servicos.html">
+                        <h2 class="nav">Serviço</h2>
+                    </a>
+                    <a href="../pag_contato/page_contato.html">
+                        <h2 class="nav">Contato</h2>
+                    </a>
+                    <a href="../pag_produto/html/produto.html">
+                        <h2 class="nav">Produto</h2>
+                    </a>
+                </div>
+
+                <div class="contBot">
+                    <a href="../pag_cadastro/html/cadastro.html"><button type="button" class="btn btn-outline-light">Cadastro</button></a>
+                    <a href="../page_login/page_login.html"><button type="button" class="btn btn-outline-light">Login</button></a>
+                </div>   
+
+            </nav>
+        </header>
+
+        <!-- Aqui termina -->
 
     <div class="box-contato">
       <p class="texto-contato">
@@ -142,38 +156,42 @@
       </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Aqui começa o footer -->
 
     <footer class="rodape">
-      <section class="detalhes">
-        <div class="logoFinal">
-          <img
-            src="../pag_home/midia/icones/checkboxes.png"
-            alt="logoTipo"
-            class="imgLogoFooter"
-          />
-          <h1 class="txtLogoFooter">ToDo List</h1>
-        </div>
 
-        <div class="links">
-          <a href="#">
-            <h3 class="linkFooter">Serviço</h3>
-          </a>
-          <a href="./page_contato.html">
-            <h3 class="linkFooter">Contato</h3>
-          </a>
-          <a href="../pag_cadastro/html/cadastro.html">
-            <h3 class="linkFooter">Cadastro</h3>
-          </a>
-          <a href="../page_login/page_login.html">
-            <h3 class="linkFooter">Login</h3>
-          </a>
-        </div>
+      <section class="detalhes">
+          <div class="logoFinal">
+              <img src="../index/media/logoT.png" alt="logoTipo" class="imgLogoFooter">
+              <h1 class="txtLogoFooter">DailyCheck</h1>
+          </div>
+
+          <div class="links">
+              <a href="../pag_servicos/servicos.html">
+                  <h3 class="linkFooter">Serviço</h3>
+              </a>
+              <a href="../pag_contato/page_contato.html">
+                  <h3 class="linkFooter">Contato</h3>
+              </a>
+              <a href="../pag_produto/html/produto.html">
+                  <h3 class="linkFooter">Produto</h3>
+              </a>
+              <a href="../pag_cadastro/html/cadastro.html">
+                  <h3 class="linkFooter">Cadastro</h3>
+              </a>
+              <a href="../page_login/page_login.html">
+                  <h3 class="linkFooter">Login</h3>
+              </a>
+              
+          </div>
       </section>
 
       <section class="direitos">
-        <h1 class="txtDireitos">Todos os direitos reservados</h1>
+          <h1 class="txtDireitos">Todos os direitos reservados</h1>
       </section>
-    </footer>
+
+  </footer>
+
+  <!-- Aqui termina -->
   </body>
 </html>
