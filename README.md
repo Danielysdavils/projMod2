@@ -7,14 +7,14 @@
 <!--ts-->
  * [Resumo](#resumo)
  * [Páginas](#paginas)
-    * [Página Inicial]()
-    * [Cadastro]()
-    * [Login]()
-    * [Recuperação de Senha]()
-    * [Detalhes do Serviço]()
-    * [Página de Contatos]()
-    * [Produto]()
- * [Autores]()
+    * [Página Inicial](#home)
+    * [Cadastro](#cadastro)
+    * [Login](#login)
+    * [Recuperação de Senha](#recupSenha)
+    * [Detalhes do Serviço](#servico)
+    * [Página de Contatos](#contatos)
+    * [Produto](#produto)
+ * [Autores](#autores)
 <!--te-->
 
 <h2 id="resumo">Resumo</h2>
@@ -23,8 +23,8 @@
 
 <br>
 
-<h2>Páginas:</h2>
-<h3>Página Inicial:</h3>
+<h2 id="paginas">Páginas:</h2>
+<h3 id="home">Página Inicial:</h3>
 <p>Essa página tinha como objetivo trazer um breve resumo das funcionalidades,  benefícios, opiniões e dados sobre nosso produto</p>
 <div display="flex">
 <img src="https://media.discordapp.net/attachments/490909335468245002/969728144552632320/unknown.png" width="500" height="300">
@@ -34,7 +34,7 @@
 <hr>
 
 
-<h3>Detalhes do Serviço</h3>
+<h3 id="servico">Detalhes do Serviço</h3>
 <p>Aqui, temos tudo que o nosso produto é capaz de fazer detalhadamente, além dos nossos planos de assinatura</p>
 <div display="flex">
 <img src="https://media.discordapp.net/attachments/969628595070828603/969629713322635324/print_site.png" width="500" height="300">
@@ -44,7 +44,7 @@
 <hr>
 
 
-<h3>Cadastro</h3>
+<h3 id="cadastro">Cadastro</h3>
 <p>Página de cadastro onde usamos a API ViaCEP para conseguirmos automatizar o processo de inserção do endereço do usuário</p>
 <div display="flex">
 <img src="https://media.discordapp.net/attachments/490909335468245002/969360950853513306/unknown.png" width="500" height="300">
@@ -53,7 +53,7 @@
 
 <hr>
 
-<h3>Login</h3>
+<h3 id="login">Login</h3>
 <p>Página onde os usuários podem fazer Login. Como ainda não trabalhamos com backend, tudo que há nessa página é um verificador de e-mail e senha, onde se algum deles não estiver nos conformes estabelecidos, aparecerá a mensagem de e-mail/senha inválida.</p>
 <div display="flex">
 <img src="https://media.discordapp.net/attachments/490909335468245002/969728144821059695/unknown.png" width="500" height="300">
@@ -62,7 +62,7 @@
 
 <hr>
 
-<h3>Página de Recuperar Senha</h3>
+<h3 id="recupSenha">Página de Recuperar Senha</h3>
 <p>Essa página segue um princípio parecido com a de Login, onde os usuários colocam seu e-mail de recuperação de senha e recebem a mensagem "e-mail de redefinição de senha enviado" caso o e-mail atenda os requisitos e, caso contrário, "e-mail inválido".</p>
 <div display="flex">
 <img src="https://media.discordapp.net/attachments/490909335468245002/969728145030803576/unknown.png" width="500" height="300">
@@ -71,7 +71,7 @@
 
 <hr>
 
-<h3>Contatos</h3>
+<h3 id="contatos">Contatos</h3>
 <p>Aqui, encontramos todos os contatos dos integrantes da equipe.</p>
 <div display="flex">
 <img src="https://cdn.discordapp.com/attachments/490909335468245002/969706076259909684/unknown.png" width="500" height="300">
@@ -80,7 +80,7 @@
 
 <hr>
 
-<h3>Produto</h3>
+<h3 id="produto">Produto</h3>
 <p>Nesta página, há um pequeno preview da funcionalidade que criamos para ser a página de anotações do nosso produto</p>
 <div display="flex">
 <img src="https://media.discordapp.net/attachments/969324554742800456/969324629393043606/unknown.png?width=1255&height=670" width="500" height="300">
@@ -89,7 +89,7 @@
 
 <hr>
 
-<h2>Autores:</h2>
+<h2 id="autores">Autores:</h2>
 <p>Participantes do projeto e seus respectivos contatos:</p>
 
 <h3>Danielys Davila</h3>
