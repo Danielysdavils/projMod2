@@ -37,8 +37,8 @@
 <h3>Detalhes do Serviço</h3>
 <p>Aqui, temos tudo que o nosso produto é capaz de fazer detalhadamente, além dos nossos planos de assinatura</p>
 <div display="flex">
-<img src="">
-<img src="">
+<img src="https://media.discordapp.net/attachments/969628595070828603/969629713322635324/print_site.png" width="500" height="300">
+<img src="https://media.discordapp.net/attachments/969628595070828603/969680115250376774/print_site_responsivo.png" width="290" height="470">
 </div>
 
 <hr>
@@ -65,8 +65,8 @@
 <h3>Página de Recuperar Senha</h3>
 <p>Essa página segue um princípio parecido com a de Login, onde os usuários colocam seu e-mail de recuperação de senha e recebem a mensagem "e-mail de redefinição de senha enviado" caso o e-mail atenda os requisitos e, caso contrário, "e-mail inválido".</p>
 <div display="flex">
-<img src="">
-<img src="">
+<img src="https://media.discordapp.net/attachments/490909335468245002/969677441348018227/Captura_de_Tela_129.png?width=1351&height=670" width="500" height="300">
+<img src="https://media.discordapp.net/attachments/490909335468245002/969677441771651082/Captura_de_Tela_130.png?width=431&height=669" width="290" height="470">
 </div>
 
 <hr>
@@ -76,6 +76,15 @@
 <div display="flex">
 <img src="">
 <img src="">
+</div>
+
+<hr>
+
+<h3>Produto</h3>
+<p>Nesta página, há um pequeno preview da funcionalidade que criamos para ser a página de anotações do nosso produto</p>
+<div display="flex">
+<img src="https://media.discordapp.net/attachments/969324554742800456/969324629393043606/unknown.png?width=1255&height=670" width="500" height="300">
+<img src="https://media.discordapp.net/attachments/969324554742800456/969665284044627998/unknown.png?width=445&height=670" width="290" height="470">
 </div>
 
 <hr>
