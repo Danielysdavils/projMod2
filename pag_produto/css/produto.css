@@ -8,11 +8,8 @@ body{
     align-items: center;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+a{
+    text-decoration: none;
 }
 
 main{
